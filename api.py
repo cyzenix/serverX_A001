@@ -19,8 +19,8 @@ with open(responses_file_path, 'r', encoding='utf-8') as responses_file:
     responses = json.load(responses_file)
 
 apologies = [
-    "Mujhe khed hai, main iska jawab nahi de sakta.",
-    "Maafi chahata hoon, main abhi seekh raha hoon aur mujhe jawab nahi pata.",
+    "Mujhe khed hai, main iska jawab nahi de sakti.",
+    "Maafi chahati hoon, main abhi seekh raha hoon aur mujhe jawab nahi pata.",
     "Sorry, mujhe is bare mein kuch nahi pata.",
 ]
 
