@@ -9,7 +9,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-EXPECTED_ORIGIN = 'https://chatzenix.github.io/cyzenix/chat1.html'
+EXPECTED_ORIGIN = 'https://cyzenix.github.io/cyzenix/chat1.html'
 SECRET_API_KEY = '72472hSujsOitwoO,0($9#7@)juaiwoq09uYajaiuaiiqywuzkIsu~{}'
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
